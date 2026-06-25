@@ -1,0 +1,19 @@
+<svg width="720" height="820" viewBox="0 0 720 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="820" rx="44" fill="#173D36"/>
+  <circle cx="590" cy="110" r="136" fill="#C9A15C" fill-opacity="0.20"/>
+  <circle cx="126" cy="688" r="188" fill="#F8F2E9" fill-opacity="0.08"/>
+  <path d="M120 582C120 404.38 263.38 261 441 261H526C603.32 261 666 323.68 666 401V556C666 634.32 603.32 697 526 697H235C171.86 697 120 645.14 120 582Z" fill="#F8F2E9" fill-opacity="0.10"/>
+  <ellipse cx="380" cy="450" rx="198" ry="156" fill="#C9A15C" fill-opacity="0.26"/>
+  <ellipse cx="378" cy="446" rx="162" ry="122" fill="#F8F2E9" fill-opacity="0.95"/>
+  <ellipse cx="378" cy="446" rx="134" ry="98" fill="#F4E0BA"/>
+  <ellipse cx="295" cy="412" rx="24" ry="18" fill="#173D36"/>
+  <ellipse cx="346" cy="382" rx="24" ry="18" fill="#D6B06A"/>
+  <ellipse cx="410" cy="425" rx="28" ry="20" fill="#173D36"/>
+  <ellipse cx="468" cy="386" rx="22" ry="16" fill="#C9A15C"/>
+  <ellipse cx="510" cy="439" rx="18" ry="14" fill="#173D36"/>
+  <path d="M222 548C286 518 328 498 380 498C438 498 482 519 548 548" stroke="#173D36" stroke-width="20" stroke-linecap="round"/>
+  <path d="M206 566C279 526 331 512 380 512C438 512 493 528 564 566" stroke="#C9A15C" stroke-width="10" stroke-linecap="round"/>
+  <rect x="80" y="84" width="184" height="76" rx="24" fill="#F8F2E9" fill-opacity="0.14"/>
+  <text x="108" y="130" fill="#F8F2E9" font-family="Arial, sans-serif" font-size="28" font-weight="700">Scooptopia</text>
+  <text x="108" y="158" fill="#F8F2E9" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="16">Filipino street food catering</text>
+</svg>
