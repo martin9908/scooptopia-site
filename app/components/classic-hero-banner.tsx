@@ -3,19 +3,9 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import type { ClassicSlide } from "@/app/lib/site-content-store";
 
-type ClassicSlide = {
-    title: string;
-    description: string;
-    badge: string;
-    image: {
-        src: string;
-        alt: string;
-    };
-    stats: [string, string];
-};
-
-const slides: ClassicSlide[] = [
+const defaultSlides: ClassicSlide[] = [
     {
         title: "Bold Filipino Flavors for Every Celebration",
         description:
@@ -51,7 +41,11 @@ const slides: ClassicSlide[] = [
     },
 ];
 
-export function ClassicHeroBanner() {
+type ClassicHeroBannerProps = {
+    slides?: ClassicSlide[];
+};
+
+export function ClassicHeroBanner({ slides = defaultSlides }: ClassicHeroBannerProps) {
     const [activeIndex, setActiveIndex] = useState(0);
     const activeSlide = slides[activeIndex];
 
@@ -61,7 +55,7 @@ export function ClassicHeroBanner() {
         }, 6000);
 
         return () => window.clearInterval(timer);
-    }, []);
+    }, [slides.length]);
 
     return (
         <section className="relative overflow-hidden border-b border-white/10 bg-[#173d36] text-white">
