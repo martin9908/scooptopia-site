@@ -15,6 +15,10 @@ import { SimpleSiteFooter } from "@/app/components/organisms/site-footers";
 import { PageShell } from "@/app/components/templates/page-shell";
 import { getSiteContent } from "@/app/lib/site-content-store";
 
+// Content is admin-editable via Supabase, so render on each request instead of
+// serving a build-time prerender (otherwise edits never appear until a rebuild).
+export const dynamic = "force-dynamic";
+
 const eventIconMap = {
     party: PartyPopper,
     wedding: HandPlatter,
